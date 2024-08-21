@@ -1,0 +1,155 @@
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+}
+
+.container {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.header {
+    background-color: #012E57;
+    color: #FFFFFF;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.back-arrow {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.profile-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.profile-info h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #002647;
+}
+
+.profile-info p {
+    margin: 5px 0 0;
+    color: #7D7D7D;
+}
+
+.profile-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.goal {
+    background-color: #002647;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.goal p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.progress {
+    position: relative;
+    margin-top: 10px;
+}
+
+.semi-circle {
+    width: 100px;
+    height: 50px;
+    background-color: #B6B6B6;
+    border-radius: 50px 50px 0 0;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.progress-value {
+    width: 100px;
+    height: 50px;
+    background-color: #FCB000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: center bottom;
+}
+
+.percentage {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.metrics {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.metric {
+    text-align: center;
+}
+
+.metric p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.metric-graph {
+    width: 30px;
+    height: 20px;
+    background-color: #37DD0D;
+    margin-top: 5px;
+}
+
+.contact-details {
+    padding: 20px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.contact-details p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #002647;
+}
+
+.contact-details span {
+    color: #7D7D7D;
+}
+
+.icon {
+    font-size: 14px;
+    color: #DF0100;
+}
+
+.medical-history {
+    padding: 20px;
+}
+
+.medical-history p {
+    margin: 0;
+    font-size: 14px;
+    color: #002647;
+}  
+
